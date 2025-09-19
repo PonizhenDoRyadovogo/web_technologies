@@ -1,0 +1,32 @@
+* {
+    margin: 5px;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    overflow: hidden;
+}
+
+.float-box {
+    height: 70px; 
+    width: 150px; 
+    background-color: aquamarine; 
+    margin: 10px; 
+    float: left;
+    text-align: left;
+    font-size: 12px;
+    color: black;
+}
+
+.clear-box {
+    background-color: bisque;
+    margin: auto;
+    clear: both;
+    text-align: left;
+    font-size: 12px;
+    color: black;
+    width: calc(100% - 20px); 
+    box-sizing: border-box;
+
+}
