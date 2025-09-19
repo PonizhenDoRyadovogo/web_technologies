@@ -1,0 +1,22 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman';
+}
+
+.border {
+    border: 10px solid blue;
+    max-width: 400px;
+    margin: 10px auto;
+}
+
+.box {
+    text-align: left;
+    font-size: 12px;
+    color: black;
+    padding: 0;
+    max-width: 420px;
+    margin: 10px auto;
+    box-sizing: border-box;
+}
